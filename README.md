@@ -1,6 +1,6 @@
 Para ejecutar la parte del modelo junto con el servicio de Flask es necesario seguir los siguientes pasos:
 
-1. Montar el servicio de Flask, para ello teniendo python instalado en la versión 3.10.0rc2, en cmd se ejecuta: python -venv flask.
+1. Montar el servicio de Flask, para ello teniendo python instalado en la versión 3.10.0rc2, en cmd se ejecuta: python -m venv flask.
 2. Una vez montado el servicio de flask, usando cmd dentro de la carpeta Scripts se activa el servicio de flask con el comando: activate
 3. Ahora se instala las dependencias anexadas como "dependences.txt", asi mismo, las versiones de tensorflow 2.15.0 y keras 2.15.0
 4. Para continuar se debe colocar dentro de la carpeta "FlaskService" los archivos app.py y el modelo
